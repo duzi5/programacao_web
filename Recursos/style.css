@@ -1,0 +1,62 @@
+
+body { 
+    background: radial-gradient(circle, rgba(2,0,36,1) 20%, rgba(145,130,172,1) 100%, rgba(0,212,255,1) 100%);
+
+}
+
+h3 { 
+
+text-align: center;
+color: chartreuse;
+font-weight: 600;
+font-size: 2.5rem;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+form {
+    margin: 0 auto;
+    width: 400px; 
+    border: 3.5px solid chartreuse; 
+    border-radius: 15%;
+    padding: 20px;
+    background-color: blueviolet;
+
+}
+
+form div { 
+    margin-top: 15px;
+
+}
+label{ 
+    padding: 20px; 
+    font-size: 2em;
+    font-weight: 300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    
+}
+label:hover{ 
+    color: white;
+}
+
+textarea{ 
+    font: 12px sans-serif;
+    width: 350px; 
+    height: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: 15px;
+
+#botao  { color: white; 
+        background-color: black;
+         
+
+
+}
+
+input { 
+    width: 300px;
+
+}
