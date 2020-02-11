@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokesystem</title>
+</head>
+<style> 
+body {background-color:lightgray;
+        width: 400px;
+        margin: auto;
+        padding: 5%;
+    
+
+}
+h1{ 
+    text-align: center;
+}
+
+form{ 
+    margin: 0 auto;
+    width: 400px;
+    padding: 5% 5%;
+    background-color: whitesmoke;
+    border-radius: 10px 0 10px 0;
+}
+
+label{ 
+    margin-block-end: 10px;
+    margin-top: 10px;
+}
+textarea{
+    width: 95%;
+    height: 100px;
+    border-radius: 10px;
+
+
+}
+input{ 
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.meio { 
+    margin-left: 200px;
+}
+.salvar {
+margin-left: 340px;
+border-radius: 5%;
+
+}
+
+</style>
+
+<body>
+    <h1>Pokesystem</h1> 
+    <form>
+    <label>Nome:</label>
+    <input type="text" name="nome" placeholder="Digite seu nome"> 
+   
+    <label> Tipo:</label>
+        <select name="select" > 
+            <option value="Selecione">Selecione Tipo --</option>
+            <option value="Elétrico">Elétrico</option>
+            <option value="Fogo">Fogo</option>
+            <option value="Água">Água</option>
+            <option value="Terra">Terra</option>
+            <option value="Gelo">Gelo</option>
+            <option value="Psiquico">Psiquico</option>
+            <option value="Planta">Planta</option>
+            <option value="Terra">Terra</option>
+        </select>
+    
+
+        <label>Ataque</label>
+        <input name="ataque" type="number" min="0" max="100" method="post" action="#"> 
+        <label>Defesa</label>
+        <input type="number" min="0" max="100" method="post" action="#"> <br>
+        <label>Evoluído?</label>
+            <label> <input type="radio" name="evoluido" checked>Sim </label> 
+            <label> <input type="radio" name="evoluido">Não</label>
+            <br><br>
+
+        <label>Descrição: </label> <BR>
+        <textarea placeholder="Quais as características desse Pokemón?"></textarea>
+        <input type="button" value="Salvar" class="salvar">
+    </form>    
+    
+</body>
+</html>
