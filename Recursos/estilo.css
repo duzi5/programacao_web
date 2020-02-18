@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body { 
+
+
+
+font-family: 'Oswald', sans-serif;
+    color: rgb(175, 226, 79);
+background-color: rgb(196, 88, 88);
+background-image: linear-gradient(to bottom, rgb(113, 54, 128), black);
+display: grid;
+grid-template-rows: 2fr 3fr 1fr;
+grid-template-columns: 30px,600px;
+grid-template-areas: 
+                     
+                    
+                    "cabecalho cabecalho"
+                    "nave principal"
+                    "rodape rodape"; 
+
+
+}
+
+
+
+
+    
+
+
+
+
+
+}
+
+h1:hover { 
+
+            background-color: rgb(175, 226, 79);
+            color: black; 
+
+
+
+}
+
+
+.cabecalho {    grid-area: cabecalho;
+    
+    grid-area: cabecalho;
+    height: 150px;
+    border-end-end-radius: 12%;
+  
+    
+    text-align: center;
+
+}
+.nave{ 
+grid-area: nave;
+margin-top: 5%;
+background-color: rgb(113, 54, 128);
+width: 60%;
+height: auto;
+margin-left: 10%;
+margin-top:15px;
+padding: 5%;
+border-radius: 3%;
+
+
+
+}
+.nave:hover{
+    box-shadow: 0 0 1em rgba(237, 236, 240, 0.411);
+
+}
+.principal{
+    grid-area: principal;
+    width: 660px;
+    height: 100%;
+    margin-right: 60px;
+    background-color:   rgb(167, 122, 179);
+    padding: 2%;
+    text-align: justify;
+    margin-top: 15px;
+
+
+
+}
+
+.rodape{
+    grid-area: rodape;
+    background-color: hotpink;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    box-sizing: 200px, 800px;
+}
